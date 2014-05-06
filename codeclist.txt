@@ -1,0 +1,362 @@
+3IV1	3ivx	3IVX
+3IV2	3ivx	3IVX
+3IVX	MPEG4-based codec 3ivx	http://www.3ivx.com
+____	|No Codec	NA
+_BIT,	BI_BITFIELDS (Raw RGB)	* No codec needed
+_JPG,	BI_JPEG JPEG compressed	Joint Photo Experts Group
+_PNG,	BI_PNG PNG compressed	W3C/ISO/IEC (RFC-2083)
+_RAW	Full Frames (Uncompressed)	N.A.
+_RGB,	BI_RGB  Raw Bitmap	* No codec needed
+_RL4,	BI_RLE4  (RLE 4bpp RGB)	* No codec needed
+_RL8,	BI_RLE8  (RLE 8bpp RGB)	* No codec needed
+AASC	Autodesk Animator codec	Autodesk
+ABYR	Kensington ?	Kensington
+AEMI	Array VideoONE MPEG1-I Capture	Array Microsystems
+AFLC	Autodesk Animator codec	Autodesk
+AFLI	Autodesk Animator codec	Autodesk
+AMPG	Array VideoONE MPEG	Array Microsystems
+ANIM	RDX	Intel
+AP41	AngelPotion Definitive	AngelPotion
+ASV1	Asus Video	Asus
+ASV2	Asus Video (2)	Asus
+ASVX	Asus Video 2.0	Asus
+AUR2	AuraVision Aura 2: YUV 422	AuraVision Corporation
+AURA	AuraVision Aura 1: YUV 411	AuraVision Corporation
+AVDJ	Independent JPEG Group's codec	?
+AVRN	Independent JPEG Group's codec	?
+AYUV	4:4:4 YUV format	*No Codec Needed
+AZPR	Quicktime Apple Video	?
+BGR 	Raw RGB32	* No codec needed
+BINK	Bink Video	RAD Game Tools
+BLZ0	FFmpeg MPEG-4	?
+BT20	Prosumer Video	Conexant
+BTCV	Composite Video Codec	Conexant
+BTVC	Conexant Composite Video	Conexant
+BW10	Broadway MPEG Capture/Compression	Data Translation
+CC12	YUV12 Codec	Intel
+CDVC	Canopus DV Codec	Canopus
+CFCC	DPS Perception	Digital Processing Systems
+CGDI	Camcorder Video	Microsoft
+CHAM	MM_WINNOV_CAVIARA_CHAMPAGNE	Winnov, Inc.
+CJPG	WebCam JPEG	Creative Labs
+CLJR	Cirrus Logic YUV 4:1:1	Cirrus
+CMYK	Common Data Format in Printing	Colorgraph (UK)
+CPLA	YUV 4:2:0	Weitek
+CRAM	Microsoft Video 1	Microsoft
+CVID	Cinepak by Supermac	Supermac
+CWLT	Microsoft Color WLT DIB	Microsoft
+CYUV	Creative Labs YUV	Creative Labs, Inc.
+CYUY	ATI Proprietary YUV compression	ATI Technologies
+D261	H.261	CCITT / ITU Standard
+D263	H.263	CCITT / ITU Standard
+DIB 	Device Independent Bitmap	* No codec needed
+DIV1	FFmpeg OpenDivX	?
+DIV2	Microsoft MPEG-4 v1/v2	?
+DIV3	DivX 3 Low-Motion	DivX
+DIV4	DivX 3 Fast-Motion	DivX
+DIV5	DivX 5.0	divx.com
+DIV6	DivX ;-) (MS MPEG-4 v3)	?
+DIVX	DivX 4 (OpenDivX)	Project Mayo
+DMB1	Rainbow Runner hardware compression	Matrox
+DMB2	?	?
+DPS0	DPS Reality Motion JPEG	DPS/Leitch
+DPSC	DPS PAR Motion JPEG	DPS/Leitch
+DSVD	DV Codec	?
+DUCK	TrueMotion S	Duck Corporation
+DV25	Matrox DVCPRO codec	Matrox
+DV50	Matrox DVCPRO50 codec	Matrox
+DVAN	?	?
+DVC 	DVC/DV Video	IEC 61834 and SMPTE 314M
+DVCP	DVC/DV Video	IEC 61834 and SMPTE 314M
+DVE2	DVE-2 Videoconferencing Codec	InSoft
+DVHD	DV 1125 lines at 30.00 Hz or 1250 lines at 25.00 Hz	IEC Standard
+DVMA	Darim Vision DVMPEG (dummy for MPEG compressor)	http://www.darvision.com/
+DVSD	DVC/DV Video	IEC 61834 and SMPTE 314M
+DVSL	DV compressed in SD (SDL)	IEC Standard
+DVX1	DVX1000SP Video Decoder	Lucent
+DVX2	DVX2000S Video Decoder	Lucent
+DVX3	DVX3000S Video Decoder	Lucent
+DX50	DivX 5.0	divx.com
+DXT1	DirectX Texture Compression Format 1	Microsoft Corporation 
+DXT2	DirectX Texture Compression Format 2	Microsoft Corporation 
+DXT3	DirectX Texture Compression Format 3	Microsoft Corporation 
+DXT4	DirectX Texture Compression Format 4	Microsoft Corporation 
+DXT5	DirectX Texture Compression Format 5	Microsoft Corporation 
+DXTC	DirectX Texture Compression	Microsoft
+DXTn	DirectX Compressed Texture	Microsoft
+EKQ0	related to Elsa Graphics cards	http://www.elsa.com/
+ELK0	related to Elsa Graphics cards	http://www.elsa.com/
+EM2V	Etymonix MPEG-2 I-frame	http://www.etymonix.com/
+ESCP	Escape	Eidos Technologies
+ETV1	eTreppid Video Codec	eTreppid Technologies
+ETV2	eTreppid Video Codec	eTreppid Technologies
+ETVC	eTreppid Video Codec	eTreppid Technologies
+FLIC	Autodesk FLI/FLC Animation	http://www.autodesk.com
+FLJP	Field Encoded Motion JPEG	D-Vision
+FRWA	Forward Motion JPEG with alpha channel	SoftLab-Nsk
+FRWD	Forward Motion JPEG	SoftLab-Nsk
+FRWT	Darim Vision Forward Motion JPEG	http://www.darvision.com/
+FRWU	Darim Vision Forward Uncompressed	http://www.darvision.com/
+FVF1	Fractal Video Frame	Iterated Systems, Inc.
+GLZW	Motion LZW	gabest@freemail.hu
+GPEG	Motion JPEG	gabest@freemail.hu
+GWLT	Microsoft Greyscale WLT DIB	Microsoft
+H260	ITU H.26n	Intel 
+H261	ITU H.26n	Intel 
+H262	ITU H.26n	Intel 
+H263	ITU H.26n	Intel 
+H264	ITU H.26n	Intel 
+H265	ITU H.26n	Intel 
+H266	ITU H.26n	Intel 
+H267	ITU H.26n	Intel 
+H268	ITU H.26n	Intel 
+H269	ITU H.26n	Intel 
+HFYU	Huffman Lossless Codec	?
+HMCR	Rendition Motion Compensation Format	Rendition
+HMRR	Rendition Motion Compensation Format	Rendition
+I263	FFmpeg I263 decoder	?
+i263	ITU H.263	Intel
+I420	RAW I420	?
+IAN 	Indeo 4 Codec	Intel
+ICLB	CellB Videoconferencing Codec	InSoft
+IF09	Indeo YVU9 ("YVU9 with additional delta-frame info after the U plane")	*No Codec Needed
+IGOR	Power DVD	?
+IJPG	Independent JPEG Group's codec	?
+IJPG	Intergraph JPEG	Intergraph
+ILVC	Layered Video	Intel
+ILVR	ITU H.263+ Codec	?
+IPDV	Giga AVI DV Codec	"I-O Data Device, Inc."
+IR21	Indeo 2.1	Intel
+IRAW	Intel YUV Uncompressed	Intel
+IUYV	Interlaced version of UYVY	http://www.leadtools.com/
+IV30	Indeo 3.0	Intel Corporation
+IV31	Indeo 3.1	Intel Corporation
+IV32	Indeo 3.2	Ligos
+IV33	Indeo 3.3	Ligos
+IV34	Indeo 3.4	Ligos
+IV35	Indeo 3.5	Ligos
+IV36	Indeo 3.6	Ligos
+IV37	Indeo 3.7	Ligos
+IV38	Indeo 3.8	Ligos
+IV39	Indeo 3.9	Ligos
+IV40	Indeo Interactive	Ligos
+IV41	Indeo Interactive	Ligos
+IV42	Indeo Interactive	Ligos
+IV43	Indeo Interactive	Ligos
+IV44	Indeo Interactive	Ligos
+IV45	Indeo Interactive	Ligos
+IV46	Indeo Interactive	Ligos
+IV47	Indeo Interactive	Ligos
+IV48	Indeo Interactive	Ligos
+IV49	Indeo Interactive	Ligos
+IV50	Indeo Interactive	Ligos
+IY41	Interlaced version of Y41P	http://www.leadtools.com/
+IYU1	12 bit format used in mode 2 of the IEEE 1394 Digital Camera 1.04 spec	IEEE standard
+IYU2	24 bit format used in mode 2 of the IEEE 1394 Digital Camera 1.04 spec	IEEE standard
+IYUV	Planar YUV format (8-bpp Y plane, followed by 8-bpp 2×2 U and V planes)	*No Codec Needed
+JBYR	?	Kensington?
+JPEG	Still Image JPEG DIB	Microsoft Corporation 
+JPGL	Pegasus Lossless Motion JPEG	http://www.jpg.com/
+KMVC	Karl Morton's Video Codec (presumably)	Team17 Software
+LEAD	LEAD Video Codec	Lead Technologies
+Ljpg	LEAD MJPEG Codec	Lead Technologies
+LSVM	Vianet Lighting Strike Vmail (Streaming)	http://www.vianet.com
+M261	H.261	Microsoft 
+M263	H.263	Microsoft 
+M4S2	Fully Compliant MPEG-4 v2 simple profile codec	Microsoft
+MC12	Motion Compensation Format	ATI Technologies
+MCAM	Motion Compensation Format	ATI Technologies
+MDVD	Alex MicroDVD Video (hacked MS MPEG-4)	http://www.tiasoft.de/
+MJ2C	Morgan Multimedia JPEG2000 Compression	http://www.morgan-multimedia.com/
+MJPA	Morgan Motion JPEG Codec	http://www.morgan-multimedia.com
+MJPB	Morgan Motion JPEG Codec	http://www.morgan-multimedia.com
+MJPG	Motion JPEG DIB Format	Microsoft Corporation 
+mJPG	Motion JPEG including Huffman Tables	IBM
+MMES	Matrox MPEG-2 I-frame	Matrox
+MP2v	S-Mpeg 4 version 1	Microsoft
+MP42	S-Mpeg 4 version 2	Microsoft
+MP43	S-Mpeg 4 version 3	Microsoft
+MP4S	S-Mpeg 4 version 3	Microsoft
+MP4V	FFmpeg MPEG-4	?
+MPEG	MPEG-1	Chromatic Research
+MPG1	FFmpeg MPEG 1/2	?
+MPG2	FFmpeg MPEG 1/2	?
+MPG3	FFmpeg DivX ;-) (MS MPEG-4 v3)	?
+MPG4	MPEG-4	Microsoft 
+MPGI	MPEG	Sigma Designs
+MPNG	PNG images decoder	?
+MRCA	Mrcodec	FAST Multimedia
+MRLE	Run Length Encoding	Microsoft Corporation 
+MSS1	Windows Screen Video	?
+MSVC	Video 1	Microsoft Corporation 
+MSZH	LCL (Lossless Codec Library)	http://www.geocities.co.jp/Playtown-Denei/2837/LRC.htm
+MTX1	Matrox, possibly a texture format	Matrox
+MTX2	Matrox, possibly a texture format	Matrox
+MTX3	Matrox, possibly a texture format	Matrox
+MTX4	Matrox, possibly a texture format	Matrox
+MTX5	Matrox, possibly a texture format	Matrox
+MTX6	Matrox, possibly a texture format	Matrox
+MTX7	Matrox, possibly a texture format	Matrox
+MTX8	Matrox, possibly a texture format	Matrox
+MTX9	?	Matrox
+MV12	Motion Pixels Codec (old)	Motion Pixels
+MWV1	Aware Motion Wavelets	Aware Inc.
+nAVI	SMR Codec (hack of Microsoft Mpeg-4)	IRC #shadowrealm
+NT00	NewTek LightWave HDTV YUV with Alpha-channel	http://www.newtek.com/
+NTN1	Video Compression 1	Nogatech
+NUV1	NuppelVideo	?
+NVS0	Nvidia, probably a texture format	Nvidia
+NVS1	Nvidia, probably a texture format	Nvidia
+NVS2	Nvidia, probably a texture format	Nvidia
+NVS3	Nvidia, probably a texture format	Nvidia
+NVS4	Nvidia, probably a texture format	Nvidia
+NVS5	Nvidia, probably a texture format	Nvidia
+NVT0	Nvidia, probably a texture format	Nvidia
+NVT1	Nvidia, probably a texture format	Nvidia
+NVT2	Nvidia, probably a texture format	Nvidia
+NVT3	Nvidia, probably a texture format	Nvidia
+NVT4	Nvidia, probably a texture format	Nvidia
+NVT5	Nvidia, probably a texture format	Nvidia
+PDVC	DVC codec	"I-O Data Device, Inc."
+PGVV	Radius Video Vision	Radius
+PHMO	Photomotion	IBM Corporation
+PIM1	MPEG Realtime (Pinnacle Cards)	Pinnacle (http://www.pinnaclesys.com)
+PIM2	?	Pegasus Imaging 
+PIMJ	Lossless JPEG	Pegasus Imaging
+PIXL	MiroXL, Pinnacle PCTV	Pinnacle (http://www.pinnaclesys.com)
+PVEZ	PowerEZ	Horizons Technology
+PVMM	PacketVideo Corporation MPEG-4	PacketVideo Corporation
+PVW2	Pegasus Wavelet Compression	Pegasus Imaging
+Q1.0	Q-Team's QPEG (www.q-team.de)	?
+Q1.1	Q-Team's QPEG (www.q-team.de)	?
+QPEG	QPEG 1.1	Q-Team
+RGB 	Raw BGR32	* No codec needed
+RGBA	Raw RGB w/ Alpha	* No codec needed
+RGBT	Raw RGB w/ Transparency	* No codec needed
+RLE 	Run Length Encoded	* No codec needed
+RLE4,	Same as BI_RLE4  (RLE 4bpp RGB)	* No codec needed
+RLE8,	Same as BI_RLE8  (RLE 8bpp RGB)	* No codec needed
+RMP4	REALmagic MPEG-4 (unauthorized XVID copy)	http://www.sigmadesigns.com/
+ROQV	Id RoQ File Video Decoder	?
+RPZA	Quicktime Apple Video	?
+RT21	Indeo 2.1	Intel Corporation
+RUD0	Rududu video codec	http://rududu.ifrance.com/rududu/
+RV10	RealVideo 1.0	RealNetworks
+RV13	RealVideo 1.0 variant	RealNetworks
+RV20	RealVideo 2.0	RealNetworks
+RV30	RealVideo 3.0	RealNetworks
+RV40	RealVideo 4.0	RealNetworks
+RVX 	RDX	Intel
+s422	VideoCap C210	Tekram International
+SDCC	Digital Camera Codec	Sun Communications
+SFMC	Surface Fitting Method	CrystalNet
+SMC 	Apple Graphics (SMC) codec	?
+SMSC	Proprietary codec	Radius
+SMSD	Proprietary codec	Radius
+smsv	Wavelet Video	WorldConnect
+SP54	Sunplus Sp54 Codec for Mustek GSmart Mini 2	Logitech
+SPIG	Spigot	Radius
+SPLC	Splash Studios ACM Audio Codec	http://splashstudios.net/
+SQZ2	VXTreme Video Codec V2	Microsoft
+STVA	ST CMOS Imager Data (Bayer)	ST Microelectronics
+STVB	ST CMOS Imager Data (Nudged Bayer)	ST Microelectronics
+STVC	ST CMOS Imager Data (Bunched)	ST Microelectronics
+STVX	ST CMOS Imager Data (Extended CODEC Data Format)	ST Microelectronics
+STVY	ST CMOS Imager Data (Extended CODEC Data Format with Correction Data)	ST Microelectronics
+SV10	Video R1	Sorenson Media
+SVQ1	Sorenson Video	Sorenson Media
+SVQ3	Sorenson Video 3 (Apple Quicktime 5)	http://www.sorenson.com/
+T420	Toshiba YUV 4:2:0	Toshiba
+TLMS	Motion Intraframe Codec	TeraLogic
+TLST	Motion Intraframe Codec	TeraLogic
+TM20	TrueMotion 2.0	Duck Corporation
+TM2A	Duck TrueMotion Archiver 2.0	http://www.duck.com/
+TM2X	TrueMotion 2X	Duck Corporation
+TMIC	Motion Intraframe Codec	TeraLogic
+TMOT	TrueMotion S	Horizons Technology
+TR20	TrueMotion RT 2.0	Duck Corporation
+TSCC	TechSmith Screen Capture Codec	Techsmith Corp.
+TV10	Tecomac Low-Bit Rate Codec	"Tecomac, Inc."
+TVJP	Targa 2000 board	Pinnacle/Truevision
+TVMJ	Targa 2000 board	Pinnacle/Truevision
+TY0N	Tecomac Low-Bit Rate Codec	http://www.tecomac.com
+TY2C	Trident Decompression Driver	Trident Microsystems
+TY2N	?	Trident Microsystems
+U263	UB Video H.263/H.263+/H.263++ Decoder	?
+UCOD	ClearVideo	eMajix.com
+ULTI	Ultimotion	IBM Corporation
+UMP4	UB Video MPEG 4	http://www.ubvideo.com
+UYNV	Same as UYVY	Nvidia
+UYVP	YCbCr 4:2:2 extended precision	Evans & Sutherland
+UYVY	UYVY (packed 4:2:2)	*No Codec Needed
+V261	Lucent VX2000S	Lucent
+V422	24-bit YUV 4:2:2	Vitec Multimedia
+V655	16-bit YUV 4:2:2	Vitec Multimedia
+VCR1	ATI Video Codec 1	ATI Technologies
+VCR2	ATI Video Codec 2	ATI Technologies
+VCR3	ATI VCR 3.0	ATI Technologies
+VCR4	ATI VCR 4.0	ATI Technologies
+VCR5	ATI VCR 5.0	ATI Technologies
+VCR6	ATI VCR 6.0	ATI Technologies
+VCR7	ATI VCR 7.0	ATI Technologies
+VCR8	ATI VCR 8.0	ATI Technologies
+VCR9	ATI VCR 9.0	ATI Technologies
+VDCT	Video Maker Pro DIB	Vitec Multimedia
+VDOM	VDOWave	VDONet
+VDOW	VDOLive	VDONet
+VDTZ	VideoTizer YUV Codec	Darim Vision Co.
+VGPX	Alaris VideoGramPiX	?
+VGPX	VGPixel Codec	Alaris 
+VIDS	YUV 4:2:2 CCIR 601 for V422	Vitec Multimedia
+VIFP	VFAPI Reader Codec	http://www.yks.ne.jp/~hori/
+VIV1	FFmpeg H263+ decoder	?
+VIV2	Vivo H.263	Vivo Software
+VIVO	Vivo H.263	Vivo Software
+VIXL	Video XL	Miro (now part of Pinnacle Systems)
+VLV1	Videologic codec	VideoLogic (now PURE Digital)
+VP30	VP3	On2
+VP31	VP3	On2
+VQC2	Vector-quantised codec 2 (research)	http://eprints.ecs.soton.ac.uk/archive/00001310/01/VTC97-js.pdf
+VTLP	Alaris VideoGramPiX	?
+VX1K	VX1000S Video Codec	Lucent
+VX2K	VX2000S Video Codec	Lucent
+VXSP	VX1000SP Video Codec	Lucent
+VYU9	ATI YUV	ATI Technologies
+VYUY	ATI YUV	ATI Technologies
+WBVC	W9960	Winbond Electronics
+WHAM	Microsoft Video 1	Microsoft
+WINX	Winnov Software Compression	Winnov
+WJPG	Winbond JPEG?	?
+WMV1	FFmpeg MS WMV1/WMV7	?
+WMV2	Windows Media Video 8	?
+WNV1	Winnov Hardware Compression	Winnov
+x263	Xirlink	Xirlink
+XLV0	XL Video Decoder	NetXL Inc.
+XMPG	XING MPEG	XING Corporation
+XVID	XviD	xvid.org (open source)
+XXAN	?	?
+XYZP	Extended PAL format XYZ palette	http://www.riff.org
+Y211	YUV packed	*No Codec Needed
+Y411	Same as Y41P	*No Codec Needed
+Y41B	YUV 4:1:1 Planar	Weitek
+Y41P	YUV 4:1:1 Packed	*No Codec Needed
+Y41T	PC1 4:1:1 with transparency	Brooktree Corporation
+Y422	Copy of UYVY used in Pyro WebCam firewire camera	ADS Technologies
+Y42B	YUV 4:2:2 Planar	Weitek USA
+Y42T	UYVY with pixel transparency support	Brooktree Corporation
+Y8  	Grayscale video	?
+Y800	Simple, single Y plane for monochrome images	* No codec needed
+YC12	YUV 12 codec	Intel
+YU92	YUV	Intel Corporation
+YUNV	Same as YUY2	Nvidia
+YUV8	MM_WINNOV_CAVIAR_YUV8	Winnov, Inc.
+YUV9	YUV9	Intel Corporation
+YUVP	Extended PAL format YUV palette	http://www.riff.org
+YUY2	"Raw, uncompressed YUV 4:2:2"	Microsoft (probably)
+YUY2	YUV packed 4:2:2	*No Codec Needed
+YUYV	BI_YUYV, Canopus	Canopus, Co., Ltd.
+YV12	Identical to IYUV but the order of the U and V planes is switched	*No Codec Needed
+YVU9	Planar YUV format (8-bpp Y plane, followed by 8-bpp 4×4 U and V planes)	*No Codec Needed
+YVYU	YUV packed 4:2:2	*No Codec Needed
+ZLIB	LCL (Lossless Codec Library) zlib compression	http://www.geocities.co.jp/Playtown-Denei/2837/LRC.htm
+ZPEG	Video Zipper	Metheus

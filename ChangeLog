@@ -1,0 +1,10 @@
+0.1.3
+- fix copyright notice to comply with FSF guidelines
+- add reference in the program help to refer to 'codeclist.txt' file
+
+0.1.2
+- add '-f' (force) option to enable changing FourCC in unsupported files.
+
+0.1.0
+- first public release
+
