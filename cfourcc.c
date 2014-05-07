@@ -3,7 +3,7 @@
     cfourcc.c - this is the main (and only) module.
     
     cfourcc - change the FOURCC code in the Microsoft RIFF AVI file.
-    Copyright (C) 2004,2005,2014 Mohammad Hafiz bin Ismail (mypapit) <papit58@yahoo.com>
+    Copyright (C) 2004,2005,2014 Mohammad Hafiz bin Ismail (mypapit) <mypapit@gmail.com>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
