@@ -1,4 +1,3 @@
-
 /*
     cfourcc.c - this is the main (and only) module.
     
@@ -95,7 +94,7 @@ main (int argc, char *argv[])
   opterr = 0;
 
   puts
-	("cfourcc 0.1.3 - (stupid) console fourcc changer\nCopyright (C) Mohammad Hafiz bin Ismail <mypapit@gmail.com>\nLicensed under the terms of the GNU General Public License\n");
+	("cfourcc 0.1.3 - (stupid) console fourcc changer\nCopyright (C) 2014 Mohammad Hafiz <mypapit@gmail.com>\nLicensed under the terms of the GNU General Public License version 2 (or later)\n");
 
 
   while ((optchar = getopt (argc, argv, "d:u:ihf::")) != -1) {
