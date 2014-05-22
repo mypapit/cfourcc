@@ -28,9 +28,9 @@ For more information about this matter please refer to the file COPYING.
 
 ###Installation
 
-1) Just type 'make all'.
-2) be a root user and type 'make install'
-3) use the software as normal user. - refer usage section
+1. Just type 'make all'.
+2. be a root user and type 'make install'
+3. use the software as normal user. - refer usage section
 
 
 ###Usage
