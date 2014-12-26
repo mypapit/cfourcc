@@ -5,6 +5,10 @@
 * Author: Mohammad Hafiz bin Ismail a.k.a mypapit <mypapit@gmail.com>
 
 * Project's page: https://github.com/mypapit/cfourcc
+* 
+
+#Latest Release
+Formal release for cfourcc 0.1.3 - http://github.com/mypapit/cfourcc/releases
 
 ##Background
 
