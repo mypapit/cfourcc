@@ -94,7 +94,7 @@ main (int argc, char *argv[])
   opterr = 0;
 
   puts
-	("cfourcc 0.1.3a - (stupid) console fourcc changer\nCopyright (C) 2014 Mohammad Hafiz <mypapit@gmail.com>\nLicensed under the terms of the GNU General Public License version 2 (or later)\n");
+	("cfourcc 0.1.3.1 - (stupid) console fourcc changer\nCopyright (C) 2014 Mohammad Hafiz <mypapit@gmail.com>\nLicensed under the terms of the GNU General Public License version 2 (or later)\n");
 
 
   while ((optchar = getopt (argc, argv, "d:u:ihf::")) != -1) {
