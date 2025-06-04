@@ -1,7 +1,8 @@
 Known Bugs
 ----------
-Can't read *.avi file > 4GiB
-Will be fix. Most Linux system with ext2 filesystem wont allow avi file more than 2GiB anyway.
+Older versions couldn't read *.avi files larger than 4GiB.
+cfourcc now compiles with large file support (-D_FILE_OFFSET_BITS=64) so
+such files are handled correctly.
 
 Other Bugs?
 Probably many, please report it to <mypapit+cfourcc@gmail.com> if it too annoying you.
