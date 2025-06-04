@@ -5,7 +5,7 @@
 #
 
 CC=gcc
-CFLAGS=-O2 -pedantic -ansi -Wall
+CFLAGS=-O2 -pedantic -ansi -Wall -D_FILE_OFFSET_BITS=64
 INSTALL=install
 PREFIX=/usr/local
 

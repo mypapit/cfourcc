@@ -1,1 +1,1 @@
-- fix the 4GiB limitation
+- [done] fix the 4GiB limitation (enabled large file support)

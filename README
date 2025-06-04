@@ -24,7 +24,9 @@ FourCC (Four Character Code) is a (rather crude) method to identify codec used t
 For an unofficial list of FourCC/codec out there in the wild, please refer to 'codelist.txt'.
 
 [Installation]
-1) Just type 'make all'. 
+1) Just type 'make all'.
+   The Makefile now compiles with -D_FILE_OFFSET_BITS=64 to enable
+   support for AVI files larger than 4GiB.
 2) be a root user and type 'make install'
 3) use the software as normal user. - refer usage section
 

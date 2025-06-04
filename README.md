@@ -33,6 +33,8 @@ For more information about this matter please refer to the file COPYING.
 ###Installation
 
 1. Just type 'make all'.
+   The Makefile now enables large file support (-D_FILE_OFFSET_BITS=64)
+   so AVI files larger than 4GiB can be processed.
 2. be a root user and type 'make install'
 3. use the software as normal user. - refer usage section
 

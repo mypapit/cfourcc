@@ -21,6 +21,7 @@
     Project's web :  https://github.com/mypapit/cfourcc
 */
 
+#define _GNU_SOURCE
 #include <getopt.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -194,7 +195,7 @@ main (int argc, char *argv[])
 	if (flags & FLAG_DESC)
 	  setDesc (avihdr, ptrdesc);
 
-	fseek (fin, 0, SEEK_SET);
+        fseeko (fin, 0, SEEK_SET);
 	fwrite (avihdr, sizeof (char), AVILEN, fin);
 	fflush (fin);
 	fclose (fin);
