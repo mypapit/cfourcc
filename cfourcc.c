@@ -21,10 +21,13 @@
     Project's web :  https://github.com/mypapit/cfourcc
 */
 
+#define _FILE_OFFSET_BITS 64
 #include <getopt.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdint.h>
+#include <stdlib.h>
 #define AVILEN 224
 #define FLAG_INFO 0x0001
 #define FLAG_DESC 0x0010
@@ -94,10 +97,11 @@ main (int argc, char *argv[])
   opterr = 0;
 
   puts
-	("cfourcc 0.1.3.1 - (stupid) console fourcc changer\nCopyright (C) 2014 Mohammad Hafiz <mypapit@gmail.com>\nLicensed under the terms of the GNU General Public License version 2 (or later)\n");
+	("cfourcc 0.1.5 - (stupid) console fourcc changer\nCopyright (C) 2014 Mohammad Hafiz <mypapit@gmail.com>\nLicensed under the terms of the GNU General Public License version 2 (or later)\n");
 
 
   while ((optchar = getopt (argc, argv, "d:u:ihf::")) != -1) {
+	size_t len;
 	switch (optchar) {
 	case 'i':
 /*				printf("print info\n");*/
@@ -110,20 +114,57 @@ main (int argc, char *argv[])
 
 	case 'd':
 	  flags |= FLAG_DESC;
-	  ptrdesc = (char *) strdup (optarg);
+	  ptrdesc = strdup(optarg);
+	  if (!ptrdesc) {
+		fprintf(stderr, "Error: Memory allocation failed for description\n");
+		return 1;
+	  }
+	  len = strlen(ptrdesc);
+	  if (len < 4) {
+		/* Pad with spaces */
+		char *padded = malloc(5);
+		if (!padded) {
+			free(ptrdesc);
+			fprintf(stderr, "Error: Memory allocation failed during padding\n");
+			return 1;
+		}
+		memset(padded, ' ', 4);
+		memcpy(padded, ptrdesc, len);
+		padded[4] = '\0';
+		free(ptrdesc);
+		ptrdesc = padded;
+	  } else if (len > 4) {
+		/* Warn but proceed (will truncate) */
+		fprintf(stderr, "Warning: Description code '%s' is too long, using first 4 characters.\n", ptrdesc);
+	  }
 	  break;
 
 	case 'u':
 	  flags |= FLAG_USED;
-	  ptrused = (char *) strdup (optarg);
+	  ptrused = strdup(optarg);
+	  if (!ptrused) {
+		fprintf(stderr, "Error: Memory allocation failed for used code\n");
+		if (ptrdesc) free(ptrdesc);
+		return 1;
+	  }
+	  len = strlen(ptrused);
+	  if (len < 4) {
+		char *padded = malloc(5);
+		if (!padded) {
+			free(ptrused);
+			if (ptrdesc) free(ptrdesc);
+			fprintf(stderr, "Error: Memory allocation failed during padding\n");
+			return 1;
+		}
+		memset(padded, ' ', 4);
+		memcpy(padded, ptrused, len);
+		padded[4] = '\0';
+		free(ptrused);
+		ptrused = padded;
+	  }
 	  break;
 
 	case '?':
-
-/*				flags|=FLAG_HELP;*/
-	  /*usage(); */
-	  break;
-
 	case 'h':
 	  flags |= FLAG_HELP;
 	  usage ();
@@ -138,13 +179,18 @@ main (int argc, char *argv[])
 
 
 	default:
+	  if (ptrdesc) free(ptrdesc);
+	  if (ptrused) free(ptrused);
 	  return 0x0;
 	}
   }
 
-  if (!((optind > 0) && (optchar = -1) && (argv[optind] != NULL))) {
+  if (!((optind > 0) && (optchar == -1) && (argv[optind] != NULL))) {
 	if ((flags & FLAG_HELP) != FLAG_HELP)
 	  usage ();
+	
+	if (ptrdesc) free(ptrdesc);
+	if (ptrused) free(ptrused);
 	return 0x0f;
   }
 
@@ -195,7 +241,13 @@ main (int argc, char *argv[])
 	  setDesc (avihdr, ptrdesc);
 
 	fseek (fin, 0, SEEK_SET);
-	fwrite (avihdr, sizeof (char), AVILEN, fin);
+	if (fwrite (avihdr, sizeof (char), AVILEN, fin) < AVILEN) {
+		fprintf(stderr, "Error: Failed to write AVI header\n");
+		if (ptrdesc) free(ptrdesc);
+		if (ptrused) free(ptrused);
+		fclose(fin);
+		return 0x04;
+	}
 	fflush (fin);
 	fclose (fin);
 
@@ -204,6 +256,9 @@ main (int argc, char *argv[])
   }
 
   puts ("Done.\n");
+
+  if (ptrdesc) free(ptrdesc);
+  if (ptrused) free(ptrused);
 
   return 0;
 

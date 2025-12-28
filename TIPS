@@ -1,0 +1,6 @@
+TIPS for using cfourcc:
+
+1. Always backup your files before changing the FOURCC code, especially when using the '-f' (force) option.
+2. If you are unsure which codec code to use, refer to the 'codeclist.txt' file included with this distribution.
+3. Some players may require both the Description and Used fields to be identical. Use `-u CODE -d CODE` to set both.
+4. If a file is not recognized as an AVI file but you are sure it is valid, try the '-f' flag, but be cautious.

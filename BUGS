@@ -1,7 +1,6 @@
 Known Bugs
 ----------
-Can't read *.avi file > 4GiB
-Will be fix. Most Linux system with ext2 filesystem wont allow avi file more than 2GiB anyway.
 
-Other Bugs?
-Probably many, please report it to <mypapit+cfourcc@gmail.com> if it too annoying you.
+None known at this time.
+
+Please report any bugs/issues to <mypapit+cfourcc@gmail.com> or via GitHub Issues.

@@ -1,1 +1,5 @@
-- fix the 4GiB limitation
+- Support other container formats (e.g., MP4, MKV).
+- Add support for big-endian systems.
+- Create a proper build system (CMake/Autotools).
+- Add unit tests for safer refactoring.
+- Create a CI/CD pipeline for automated testing.

@@ -1,3 +1,10 @@
+0.1.5
+- Added Large File Support (LFS) for handling files > 2GB.
+- Fixed argument parsing logic.
+- Implement input validation for FOURCC codes (length check and padding).
+- Added failsafe checks for memory allocation and file operations.
+- Updated documentation (README.md) to proper Markdown format.
+
 0.1.3.1
 - bumped minor release number
 
@@ -10,4 +17,3 @@
 
 0.1.0
 - first public release
-
